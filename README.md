@@ -15,7 +15,7 @@ docker run -d \
   --privileged \
   -v /var/run/dbus:/var/run/dbus \
   -v /dev/bus/usb:/dev/bus/usb \
-  greedcrow/cupsd:2.3.3op
+  greedcrow/cupsd:2.3.3
 ```
 
 使用自定义 cupsd.conf 配置文件：
@@ -27,7 +27,7 @@ docker run -d \
   -v 自定义配置cupsd.conf文件位置:/etc/cups/cupsd.conf
   -v /var/run/dbus:/var/run/dbus \
   -v /dev/bus/usb:/dev/bus/usb \
-  greedcrow/cupsd:2.3.3op
+  greedcrow/cupsd:2.3.3
 ```
 
 
