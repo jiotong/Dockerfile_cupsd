@@ -44,5 +44,5 @@ jobs:
             --tag  greedcrow/cupsd:2.3.3op
             
     - name: Docker Push
-      run: docker push  greedcrow/cupsd
+      run: docker push  greedcrow/cupsd:2.3.3op
     
