@@ -1,7 +1,9 @@
 #概述
+
 ##Docker版CUPS 打印服务器和打印驱动程序。
 
 ##运行 Cups 服务器
+
 使用默认的cupsd.conf配置文件：
 
 docker run -d \
@@ -14,6 +16,7 @@ docker run -d \
   greedcrow/cupsd:2.3.3op
 
 使用自定义 cupsd.conf 配置文件：
+
   --name cupsd \
   --restart unless-stopped \
   -dp 631:631 \
