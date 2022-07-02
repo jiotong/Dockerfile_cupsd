@@ -3,6 +3,7 @@
 
 ## 运行 Cups 服务器
 使用默认的cupsd.conf配置文件：
+```bash
 docker run -d \
   --name cupsd \
   --restart unless-stopped \
@@ -11,10 +12,10 @@ docker run -d \
   -v /var/run/dbus:/var/run/dbus \
   -v /dev/bus/usb:/dev/bus/usb \
   greedcrow/cupsd:2.3.3op
-
+```
 
 使用自定义 cupsd.conf 配置文件：
-
+```bash
 --name cupsd \
   --restart unless-stopped \
   -dp 631:631 \
@@ -23,7 +24,7 @@ docker run -d \
   -v /var/run/dbus:/var/run/dbus \
   -v /dev/bus/usb:/dev/bus/usb \
   greedcrow/cupsd:2.3.3op
-
+```
 
 
 ## 将打印机添加到 Cups 服务器
