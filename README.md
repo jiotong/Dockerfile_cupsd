@@ -33,8 +33,8 @@ docker run -d \
 __注意__：Cups 服务器的管理员用户/密码是`print`/`print`
 
 ## 在你的机器上配置 Cups 客户端
-1.安装`cups-client`包
-2.编辑`/etc/cups/client.conf`，设置`ServerName`为`ip:631`
+1. 安装`cups-client`包
+2. 编辑`/etc/cups/client.conf`，设置`ServerName`为`ip:631`
 3. 使用 `lpstat -r` 测试与 Cups 服务器的连接性
 4. 使用 `lpstat -v` 测试是否检测到打印机
 5. 您机器上的应用程序现在应该可以检测到打印机了！
