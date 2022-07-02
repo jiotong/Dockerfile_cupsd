@@ -1,4 +1,6 @@
-＃＃ 概述
+## 概述
+image from
+https://github.com/olbat/dockerfiles/tree/master/cupsd
 ##Docker版CUPS 打印服务器和打印驱动程序。
 
 ## 运行 Cups 服务器
