@@ -42,7 +42,5 @@ jobs:
             --output "type=image,push=true" \
             --file Dockerfile \
             --tag greedcrow/cupsd:2.3.3op
-            
-#   - name: Docker Push
-#     run: docker push greedcrow/cupsd:2.3.3op
+
     
